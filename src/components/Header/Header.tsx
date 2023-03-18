@@ -2,6 +2,7 @@ import React from 'react';
 import { Link,  } from 'react-router-dom';
 import styled from 'styled-components';
 import logo from '../../img/logo.svg'
+import ButtonFavorites from '../ButtonFavorites/ButtonFavorites';
 
 
 const Logo = styled.img`
@@ -94,7 +95,11 @@ function Header() {
             <NavLink to="/favorites">HELP</NavLink>
           </NavItem>
       </NavLinks>
-      <Button>SIGN IN</Button>
+      <div>
+        <ButtonFavorites/>
+        <Button>SIGN IN</Button>
+      </div>
+      
     </Nav>
   );
 }
