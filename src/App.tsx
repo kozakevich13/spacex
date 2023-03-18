@@ -3,15 +3,22 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Content from './components/Content/Content';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home/Home';
+import Favorites from './pages/Favorites/Favorites';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <Header/>
-      </header>
-      <Content/>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+            <Route index element={<Home />} />
+            <Route path='/favorites' element={<Favorites/>} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
