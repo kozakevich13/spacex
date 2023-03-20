@@ -1,4 +1,4 @@
-import Content from "../../components/Content/Content";
+import Content from "../../components/SliderContainer/SliderContainer";
 import Header from "../../components/Header/Header";
 
 function Home() {

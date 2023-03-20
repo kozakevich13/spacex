@@ -18,7 +18,7 @@ const SlideElement = styled.img`
 `;
 
 
-function Content() {
+function SliderContainer() {
 
   function SampleNextArrow(props: any) {
     const { className, style, onClick } = props;
@@ -60,4 +60,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default SliderContainer;
