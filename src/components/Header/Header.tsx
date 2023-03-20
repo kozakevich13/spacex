@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link,  } from 'react-router-dom';
 import styled from 'styled-components';
-import logo from '../../img/logo.svg'
+import logo from '../../img/1679304451550.png'
 import ButtonFavorites from '../ButtonFavorites/ButtonFavorites';
 
 
 const Logo = styled.img`
-  height: 50px;
+  height: 40px;
   margin-left: 80px;
   margin-top: 19px;
+  margin-bottom: 19px;
+  wight: 229px;
 `;
 
 const Nav = styled.nav`
@@ -50,12 +52,10 @@ const NavLink = styled(Link)`
 `;
 
 
-const Button = styled.button`
-  padding: 10px 20px;
+const ButtonSign = styled.button`
+  padding-top: 1%;
   justify-content: center;
   align-items: center;
-  padding: 12px 0px;
-  gap: 10px;
   cursor: pointer;
   width: 163px;
   height: 53px;
@@ -98,7 +98,7 @@ function Header() {
       </NavLinks>
       <div>
         <ButtonFavorites/>
-        <Button>SIGN IN</Button>
+        <ButtonSign>SIGN IN</ButtonSign>
       </div>
       
     </Nav>
