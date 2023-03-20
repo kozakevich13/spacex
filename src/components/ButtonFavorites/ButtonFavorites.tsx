@@ -12,7 +12,7 @@ const Button = styled.button`
   height: 53px;
   left: 1197px;
   top: 13px;
-  background: #ECECEC;;
+  background: #ECECEC;
 
   font-family: 'Syne';
   font-style: normal;

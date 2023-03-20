@@ -22,6 +22,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 0px;
+  z-index: 1;
 `;
 
 const NavLinks = styled.ul`
