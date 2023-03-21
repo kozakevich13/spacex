@@ -33,11 +33,12 @@ const Img = styled.img`
 
 function ButtonFavorites() {
     return (
-      <ButtonFav>
-        <Link to="/favorites">
-         <Img src={icon_heart} alt='icon_heart'></Img>
-        </Link>
-      </ButtonFav>
+      <Link to="/favorites">
+        <ButtonFav>
+          <Img src={icon_heart} alt='icon_heart'></Img>
+        </ButtonFav>
+      </Link>
+
     );
   }
   

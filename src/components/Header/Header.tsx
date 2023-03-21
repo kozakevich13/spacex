@@ -83,16 +83,16 @@ function Header() {
       </NavLink>
       <NavLinks>
           <NavItem>
-            <NavLink to="/about">HOME</NavLink>
+            <NavLink to="/">HOME</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/services">TOURS</NavLink>
+            <NavLink to="/tours">TOURS</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/contact">ABOUT</NavLink>
+            <NavLink to="/about">ABOUT</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/favorites">HELP</NavLink>
+            <NavLink to="/help">HELP</NavLink>
           </NavItem>
       </NavLinks>
       <div>
