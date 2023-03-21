@@ -51,7 +51,6 @@ const NavLink = styled(Link)`
   }
 `;
 
-
 const ButtonSign = styled.button`
   padding-top: 1%;
   justify-content: center;

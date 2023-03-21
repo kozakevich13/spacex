@@ -31,7 +31,7 @@ const Img = styled.img`
 
 function ButtonFavorites() {
     return (
-      <ButtonFav className="App">
+      <ButtonFav>
         <Img src={icon_heart} alt='icon_heart'></Img>
       </ButtonFav>
     );
