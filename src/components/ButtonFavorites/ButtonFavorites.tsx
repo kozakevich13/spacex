@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import icon_heart from '../../img/Heart.png'
+import { Link,  } from 'react-router-dom';
+
 
 
 const ButtonFav = styled.button`
@@ -32,7 +34,9 @@ const Img = styled.img`
 function ButtonFavorites() {
     return (
       <ButtonFav>
-        <Img src={icon_heart} alt='icon_heart'></Img>
+        <Link to="/favorites">
+         <Img src={icon_heart} alt='icon_heart'></Img>
+        </Link>
       </ButtonFav>
     );
   }
